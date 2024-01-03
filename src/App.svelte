@@ -6,7 +6,7 @@
 
 <main class="w-full h-screen font-grotesque">
   <!-- header -->
-  <header class="w-full bg-gradient-to-b from-purple-200 to-white flex items-center content-center justify-center px-10 py-2">
+  <header class="w-full bg-gradient-to-b from-purple-100 to-white flex items-center content-center justify-center px-10 py-2">
     <div class="container mx-auto py-16 px-4 sm:px-0">
       <nav class="flex flex-wrap justify-center">
         <div class="px-5 py-2">
