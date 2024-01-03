@@ -5,6 +5,7 @@
 </script>
 
 <main class="w-full h-screen font-grotesque">
+  <!-- header -->
   <header class="w-full bg-gradient-to-b from-purple-200 to-white flex items-center content-center justify-center px-10 py-2">
     <div class="container mx-auto py-16 px-4 sm:px-0">
       <nav class="flex flex-wrap justify-center">
@@ -43,7 +44,9 @@
       </div>
     </div>
   </header>
+  <!-- content -->
   <div class="container mx-auto px-4 sm:px-0" id="features">
+    <!-- feature 1 -->
     <div class="py-10 lg:py-20">
       <h3 class="text-3xl font-semibold flex items-center justify-center space-x-2">
         <span class="i-lucide:book-open text-purple-500"/>
@@ -56,30 +59,35 @@
         <img src={screen1} alt="library_showcase" class="max-w-full rounded-md overflow-hidden shadow-xl"/>
       </div>
     </div>
+    <!-- feature 2 -->
     <div class="py-10 lg:py-20">
       <h3 class="text-3xl font-semibold flex items-center justify-center space-x-2">
-        <span class="i-lucide:book text-purple-500"/>
-        <span>Reading</span>
+        <span class="i-lucide:eye text-purple-500"/>
+        <span>Horus</span>
       </h3>
       <p class="mt-2 text-center w-full sm:w-3/4 mx-auto px-4 sm:px-0">
-        A reading experience Reimagined
+        A Reading experience Reimagined
+        <br>
+        bringing your panels to life
       </p>
       <div class="mt-6 lg:mt-12 max-w-4xl mx-auto">
         <img src={screen2} alt="reader_showcase" class="max-w-full rounded-md overflow-hidden shadow-xl"/>
       </div>
     </div>
+    <!-- feature 3 -->
     <div class="py-10 lg:py-20">
       <h3 class="text-3xl font-semibold flex items-center justify-center space-x-2">
         <span class="i-lucide:eye-off text-purple-500"/>
         <span>Distraction Free Mode</span>
       </h3>
       <p class="mt-2 text-center w-full sm:w-3/4 mx-auto px-4 sm:px-0">
-        Keyboard based navigation <br/> declutter your reading
+        Declutter your reading<br/> be truly immersed
       </p>
       <div class="mt-6 lg:mt-12 max-w-4xl mx-auto">
         <img src={screen3} alt="reader_showcase" class="max-w-full rounded-md overflow-hidden shadow-xl"/>
       </div>
     </div>
+    <!-- back story -->
     <div class="py-10 lg:py-20">
       <h3 class="text-3xl font-semibold flex items-center justify-center space-x-2">
         <span class="i-lucide:coffee text-purple-500"/>
@@ -87,14 +95,14 @@
       </h3>
       <div class="mt-6 lg:mt-8 lg:w-3/5 leading-relaxed lg:mx-auto w-prose">
         <p>
-          Back in 2023 , I was in the middle of a gap year , and I was slowly getting back into a hobby of mine
+          Back in 2023 , I was in the middle of a gap year , and I was slowly getting back into a hobby of mine,
           Comic Books , and not being able to get my hands on them physically , I had to read them digitally.
-          Diving into the landscape of digital comic book consumption , I found it quite barren , not for any reason other than
+          Diving into the landscape of digital comics , I found it quite barren , not for any reason other than
           age.
           Apps for reading comic books on PC were old and janky , new ones weren't getting made so people were just fine using the ones
-          available.The few new ones were isolated into certain software ecosystems like iOS.These , and the fact that the comic book landscape didn't have
-          repositories like the anime/manga community , even finding the digital issues where daunting and so I decided , like the developer I am , that If noone would
-          build it , I would.
+          available.The few new ones were isolated into certain software ecosystems like iOS.
+          <br/>These , and the fact that the comic book landscape didn't have
+          repositories like the anime/manga community , made even finding the digital issues where daunting and so I decided , Why not Build one, you can right ?
         </p>
         <p>
           In my head , over a long period of time , <span class="text-purple-500">Project Horus</span> (as it was called) changed its' form
@@ -107,17 +115,18 @@
         </p>
         <p>
           Vision , as it is now known , is a community that I would like to build , one where readers can be involved with each others reading , and the creators of the platform
-          are readers and enjoyers as well , because the to build the best app , sometimes you have to be the one using it , and Use I have , from the very first successful build , I have
-          used and tested this app , to bring it to a point I'm ready to show to people.The <span>Future</span> of the future , is entirely dependent on you , the user , while I have my idea
+          are readers and enjoyers as well , because to build the best app , sometimes you have to be the one using it , and use I have , from the very first successful build , I have
+          used and tested this app , to bring it to a point I'm ready to show to people.The <span class="font-bold text-purple-500">Future</span> of the future , is entirely dependent on you , the user , while I have my idea
           of what the future of our community will be , only <span class="font-bold text-purple-500">You</span> can truly bring the future to us.
         </p>
         <!-- TODO add signature , for flare -->
       </div>
     </div>
+    <!-- c2a -->
      <div class="mx-auto text-center py-12 px-4 lg:py-32">
     <h2 class="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
       <span class="block">
-        Ready to experience the <span class="text-purple-500">future</span> of Comic Consumption
+        Ready to experience the <span class="text-purple-500">future</span> of Comics ?
       </span>
       <span class="block">Get Vision Today</span>
       <div class="inline-flex">
@@ -129,6 +138,7 @@
     </h2>
   </div>
   </div>
+  <!-- footer -->
   <footer class="mt-12">
     <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
       <nav class="mx-5 -my-2 flex flex-wrap justify-center" aria-label="footer">
