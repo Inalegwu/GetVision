@@ -5,6 +5,13 @@
 </script>
 
 <main class="w-full h-screen font-grotesque">
+  <!-- active development notice -->
+  <div class="fixed z-10 px-4 py-1 rounded-full cursor-pointer bg-purple-100/80 backdrop-blur-lg top-[1%] left-[76%] hover:bg-purple-200 text-purple-700 border border-transparent flex items-center justify-center space-x-2 text-sm">
+    <span class="i-lucide:terminal text-purple-700"/>
+    <span>
+      Vision is currently in active development
+    </span>
+  </div>
   <!-- header -->
   <header class="w-full bg-gradient-to-b from-purple-100 to-white flex items-center content-center justify-center px-10 py-2">
     <div class="container mx-auto py-16 px-4 sm:px-0">
@@ -31,7 +38,7 @@
       <h2 class="text-2xl font-medium text-center mt-1">
         Digital Comic / Manga Consumption
         <span class="relative">
-          From the future
+          From the <span class="text-purple-500">future</span>
         </span>
       </h2>
       <div class="mt-8 flex justify-center space-x-3 mx-auto">
@@ -53,7 +60,7 @@
         <span>Library</span>
       </h3>
       <p class="mt-2 text-center w-full sm:w-3/4 mx-auto px-4 sm:px-0">
-        Issue and Collections <br/> Peak Organization
+        Issue and Collections <br/> <span class="text-purple-500 font-medium">Organize</span> your comics like you would at home
       </p>
       <div class="mt-6 lg:mt-12 max-w-4xl mx-auto">
         <img src={screen1} alt="library_showcase" class="max-w-full rounded-md overflow-hidden shadow-xl"/>
@@ -63,10 +70,10 @@
     <div class="py-10 lg:py-20">
       <h3 class="text-3xl font-semibold flex items-center justify-center space-x-2">
         <span class="i-lucide:eye text-purple-500"/>
-        <span>Horus</span>
+        <span>Reader View</span>
       </h3>
       <p class="mt-2 text-center w-full sm:w-3/4 mx-auto px-4 sm:px-0">
-        A Reading experience Reimagined
+        A Reading experience <span class="text-purple-500 font-medium">Reimagined</span>
         <br>
         bringing your panels to life
       </p>
@@ -81,7 +88,7 @@
         <span>Distraction Free Mode</span>
       </h3>
       <p class="mt-2 text-center w-full sm:w-3/4 mx-auto px-4 sm:px-0">
-        Declutter your reading<br/> be truly immersed
+        Declutter your reading<br/> be truly <span class="text-purple-500 font-medium">immersed</span>
       </p>
       <div class="mt-6 lg:mt-12 max-w-4xl mx-auto">
         <img src={screen3} alt="reader_showcase" class="max-w-full rounded-md overflow-hidden shadow-xl"/>
@@ -93,7 +100,7 @@
         <span class="i-lucide:coffee text-purple-500"/>
         <span>The Story Behind Vision</span>
       </h3>
-      <div class="mt-6 lg:mt-8 lg:w-3/5 leading-relaxed lg:mx-auto w-prose">
+      <div class="mt-6 lg:mt-8 lg:w-2/4 leading-relaxed lg:mx-auto w-prose">
         <p>
           Back in 2023 , I was in the middle of a gap year , and I was slowly getting back into a hobby of mine,
           Comic Books , and not being able to get my hands on them physically , I had to read them digitally.
@@ -102,7 +109,7 @@
           Apps for reading comic books on PC were old and janky , new ones weren't getting made so people were just fine using the ones
           available.The few new ones were isolated into certain software ecosystems like iOS.
           <br/>These , and the fact that the comic book landscape didn't have
-          repositories like the anime/manga community , made even finding the digital issues where daunting and so I decided , Why not Build one, you can right ?
+          repositories like the anime/manga community , made even finding the digital issues daunting and so I decided , why not build one, you can right ?
         </p>
         <p>
           In my head , over a long period of time , <span class="text-purple-500">Project Horus</span> (as it was called) changed its' form
