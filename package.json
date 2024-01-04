@@ -24,6 +24,8 @@
     "vite": "^5.0.8"
   },
   "dependencies": {
-    "@unocss/reset": "^0.58.3"
+    "@unocss/reset": "^0.58.3",
+    "octokit": "^3.1.2",
+    "svelte-routing": "^2.11.0"
   }
 }
