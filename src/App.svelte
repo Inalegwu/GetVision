@@ -36,7 +36,7 @@
         <h1 class="text-4xl font-bold text-center mt-2">Vision</h1>
       </div>
       <h2 class="text-2xl font-medium text-center mt-1">
-        Digital Comic / Manga Consumption
+        The Comic Reader
         <span class="relative">
           From the <span class="text-purple-500">future</span>
         </span>
