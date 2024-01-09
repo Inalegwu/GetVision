@@ -55,9 +55,9 @@ const gh=new Octokit({
           </a>
         </div>
         <div class="px-5 py-2">
-          <Link to="/community" class="text-base text-gray-500 hover:text-gray-900 font-medium cursor-pointer transition">
+          <a target="_blank" href="https://discord.gg/Z4Gtaq2svd" class="text-base text-gray-500 hover:text-gray-900 font-medium cursor-pointer transition">
             Community
-          </Link>
+          </a>
         </div>
       </nav>
       <div class="mt-12 flex flex-col items-center">
@@ -178,7 +178,7 @@ const gh=new Octokit({
     <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
       <nav class="mx-5 -my-2 flex flex-wrap justify-center" aria-label="footer">
         <div class="px-5 py-2">
-          <a href="/" class="text-base text-gray-500 hover:text-gray-900">Home</a>
+          <Link to="/" class="text-base text-gray-500 hover:text-gray-900">Home</Link>
         </div>
         <div class="px-5 py-2">
           <a href="/download" class="text-base text-gray-500 hover:text-gray-900">
@@ -186,19 +186,19 @@ const gh=new Octokit({
           </a>
         </div>
         <div class="px-5 py-2">
-          <a href="/community" class="text-base text-gray-500 hover:text-gray-900">
+          <a href="https://discord.gg/Z4Gtaq2svd" class="text-base text-gray-500 hover:text-gray-900">
             Community
           </a>
         </div>
         <div class="px-5 py-2">
-          <a href="/community" class="text-base text-gray-500 hover:text-gray-900">
+          <Link to="/eula" class="text-base text-gray-500 hover:text-gray-900">
             EULA
-          </a>
+          </Link>
         </div>
         <div class="px-5 py-2">
-          <a href="/community" class="text-base text-gray-500 hover:text-gray-900">
+          <Link to="/privacy" class="text-base text-gray-500 hover:text-gray-900">
             Privacy Policy
-          </a>
+          </Link>
         </div>
       </nav>
       <p class="mt-8 text-center text-base text-gray-400">
